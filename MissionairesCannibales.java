@@ -83,18 +83,7 @@ public class MissionairesCannibales {
             State e1 = new State(3, 3, true);
             ArrayList<State> etats = e1.next();
             State f=new State(0,0,false);
-//            for (int i = 0; i < etats.size(); i++) {
-//                if(etats.get(i).missionaires==0 && etats.get(i).cannibales==0 && etats.get(i).direction==false){
-//                    System.out.println("Wouuuu");
-//                }
-//                System.out.println(etats.get(i).missionaires + " " + etats.get(i).cannibales + " " + etats.get(i).direction);
-//            }
-            
-//            Random rand = new Random();
-//            int n = rand.nextInt(etats.size());
-//            State aleatoire = etats.get(n);
-//            System.out.println(aleatoire.missionaires + " " + aleatoire.cannibales + " " + aleatoire.direction);
-              SimpleReflexAgent(etats);
+            SimpleReflexAgent(etats);
         }
     }
 }
